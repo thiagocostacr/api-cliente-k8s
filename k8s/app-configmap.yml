@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: clientedb-configmap
+data:
+  JSON_SORT_KEYS: "False"
+  MYSQL_HOST: ""
+  MYSQL_USER: ""
+  MYSQL_DB: ""
+  MYSQL_PORT: "3306"
